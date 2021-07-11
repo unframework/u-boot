@@ -15,6 +15,7 @@
 #include <asm/arch/clock.h>
 #include <asm/arch/dram.h>
 #include <asm/arch/gpio.h>
+#include <linux/bitops.h>
 
 #define SDR_T_CAS			(0x2)
 #define SDR_T_RAS			(0x8)

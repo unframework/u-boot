@@ -9,9 +9,12 @@
 #endif
 
 / {
+	/* commented out by @unframework 2021-07 to make the Lichee Pi Nano compile to work */
+	/*
 	aliases {
 		mmc1 = &mmc2;
 	};
+	*/
 
 	binman: binman {
 		multiple-images;
