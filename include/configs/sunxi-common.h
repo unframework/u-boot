@@ -76,7 +76,6 @@
 #define SDRAM_OFFSET(x) 0x8##x
 #define CONFIG_SYS_SDRAM_BASE		0x80000000
 #define CONFIG_SYS_LOAD_ADDR		0x81000000 /* default load address */
-#define CONFIG_SYS_TEXT_BASE		0x81700000
 /* Note SPL_STACK_R_ADDR is set through Kconfig, we include it here 
  * since it needs to fit in with the other values. By also #defining it
  * we get warnings if the Kconfig value mismatches. */
